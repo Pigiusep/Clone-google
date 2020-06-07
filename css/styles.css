@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-top: 15px;
+  margin-right: 30px;
+}
+
+.item {
+  padding: 5px;
+  list-style: none;
+}
+.items a {
+  text-decoration: none;
+  color: #5a5959;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#icon-menu-main {
+  background-image: url("https://static.thenounproject.com/png/756729-200.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+#pic-perfil {
+  background-image: url("https://lh3.googleusercontent.com/ogw/ADGmqu__YZIn0t21tUtoHazUk_TueVmUzQWEkZDy8HTZ=s32-c-mo");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+
+/* EMPIEZA EL MAIN */
+
+.img-main {
+  background-image: url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.lupa {
+  background-image: url("https://pngimage.net/wp-content/uploads/2018/06/lupa-de-pesquisa-png-6.png");
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40px;
+  width: 25px;
+  margin: 0 auto;
+  margin-left: 10px;
+}
+.micro {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg");
+  background-size: 14px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40px;
+  width: 25px;
+  margin: 0 auto;
+  margin-right: 10px;
+}
+
+.idioma {
+  text-decoration: none;
+  color: #1a0dbe;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.buscador {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  width: 580px;
+  height: 45px;
+  border-radius: 50px;
+  margin: 0 auto;
+  border: 1px solid #dfe1e5;
+}
+.buscador:hover {
+  box-shadow: 0 1px 6px 0 gray;
+}
+.barra {
+  outline: none;
+  border: none;
+  margin: 0 auto;
+  width: 500px;
+  height: auto;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+}
+.btn:hover {
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 8px 16px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #5f6368;
+  border: 1px solid #f2f2f2;
+  text-align: center;
+}
+
+.text {
+  display: flex;
+  text-align: center;
+
+  justify-content: center;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.idioma {
+  padding-left: 10px;
+}
+
+/* EMPIEZA EL FOOTER */
+
+.footer {
+  background-color: #f2f2f2;
+  color: #5f6368;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
